@@ -1,0 +1,28 @@
+{
+  "input": {
+    "images": [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ],
+    "mock_logs": [
+      {
+        "level": "info",
+        "message": "Starting job"
+      },
+      {
+        "level": "debug",
+        "message": "Debug information"
+      },
+      {
+        "level": "warn",
+        "message": "Warning: low disk space"
+      },
+      {
+        "level": "error",
+        "message": "Error: network timeout"
+      }
+    ],
+    "mock_error": false
+  }
+}
